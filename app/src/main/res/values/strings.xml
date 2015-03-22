@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Personal Accountancy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_Accountacy">Accountancy</string>
+    <string name="action_Report">Report</string>
+    <string name="action_Setting">Setting</string>
+    <string name="text_report">Browse Report</string>
+    <string name="text_setting">Change Setting</string>
+    <string name="text_generate">Generate Report</string>
+    <string name="dialog_accept">Accept</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_message">Set Cycle Name</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_settings">SettingActivity</string>
+    <string name="General_Header">Balance</string>
+    <string name="General_Balance">Sheet Balance</string>
+    <string name="General_Inflow">Real Inflow Amount</string>
+    <string name="General_Outflow">Real OutFlow Amount</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Preference_Top_value">Preference_top</string>
+    <string name="Preference_Down_value">Preference_down</string>
+    <string name="Setting_top">Percentage above limit</string>
+    <string name="Setting_down">Percentage below limit</string>
+    <string name="Setting_rublo_header">Rubres</string>
+    <string name="item_checkbox">Active</string>
+    <string name="footer">footer</string>
+    <string name="tag_content">contenttag</string>
+    <string name="tag_position">positiontag</string>
+    <string name="dialog_ruble_name">Rubre Name</string>
+    <string name="dialog_ruble_desc">Rubre Description</string>
+    <string name="dialog_option_header">Rubre type</string>
+    <string name="dialog_option_Inflow">Inflow</string>
+    <string name="dialog_option_Outflow">Outflow</string>
+    <string name="dialog_expected">Expected Value</string>
+    <string name="Select_cycle">Select Cycle</string>
+    <string name="Selec_Rublo">Select Rubre</string>
+    <string name="Cycle_name">Cycle name</string>
+    <string name="Cycle_expt">Expected value</string>
+    <string name="Cycle_real">Real Value</string>
+    <string name="Cycle_Percentage">Percentage</string>
+
+</resources>

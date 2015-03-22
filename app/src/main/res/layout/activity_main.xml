@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Bt_setting"
+                android:background="@drawable/ic_setting"
+                android:contentDescription="@string/text_setting"
+                android:layout_alignParentTop="false"
+                android:onClick="onClick_Setting"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/text_setting"
+                android:id="@+id/Text_setting"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:layout_alignParentBottom="false"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/Bt_setting" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Bt_report"
+                android:contentDescription="@string/text_report"
+                android:background="@drawable/ic_report"
+                android:onClick="onClick_Browse"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/text_report"
+                android:id="@+id/Text_report"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:layout_alignParentBottom="false"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/Bt_report" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Bt_generate"
+                android:background="@drawable/ic_data"
+                android:contentDescription="@string/text_generate"
+                android:onClick="onClick_generate_report"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:cropToPadding="false" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/text_generate"
+                android:id="@+id/Text_generate"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:textColor="@android:color/white"
+                android:layout_below="@+id/Bt_generate"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#6495ED</color>
+    <color name="bar_color">#C0C0C0</color>
+    <color name="bar_text_color">#FFFFFF</color>
+    <color name="dialog_text_color">#00BFFF</color>
+    <color name="TabHost_color">#98FFFFFF</color>
+    <color name="Item_background">#FFFFFFFF</color>
+    <color name="Font_gray">#696969</color>
+</resources>
